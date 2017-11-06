@@ -34,6 +34,7 @@ class MapTableViewCell: UITableViewCell,MKMapViewDelegate,CLLocationManagerDeleg
     override func awakeFromNib() {
         super.awakeFromNib()
    
+        lanLatTF.borderStyle = UITextBorderStyle.roundedRect
       
     }
     

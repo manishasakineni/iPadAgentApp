@@ -50,6 +50,12 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        bankNameTF.borderStyle = UITextBorderStyle.roundedRect
+        branchNameTF.borderStyle = UITextBorderStyle.roundedRect
+        accountHolderTF.borderStyle = UITextBorderStyle.roundedRect
+        accountNoTF.borderStyle = UITextBorderStyle.roundedRect
+        swiftCodeTF.borderStyle = UITextBorderStyle.roundedRect
+        
         pickerView.delegate = self
         
         bankNameTF.inputView = pickerView

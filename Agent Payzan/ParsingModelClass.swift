@@ -45,17 +45,13 @@ class ParsingModelClass: NSObject {
                 if Utilities.sharedInstance.isObjectNull(data as AnyObject?) {
                     
                     
-                    if let response = data as? NSArray {
+                    if let response = data as? NSDictionary {
                         if Utilities.sharedInstance.isObjectNull(response) {
                             
-                            for agentRequesgts in response {
-                                
-                                if Utilities.sharedInstance.isObjectNull(agentRequesgts as AnyObject?) {
-                                    
-                                    let updateAgentRequesgtsArray = UpdateAgentReqInfoParamsAPIModel(dict: agentRequesgts as? NSDictionary)
-                                    updateAgentRequesgtInfoAPIModelArray.append(updateAgentRequesgtsArray)
-                                }
-                            }
+                            let updateAgentRequesgtsArray = UpdateAgentReqInfoParamsAPIModel(dict: response)
+                            updateAgentRequesgtInfoAPIModelArray.append(updateAgentRequesgtsArray)
+                            
+       
                         }
                     }
                 }

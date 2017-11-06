@@ -29,6 +29,9 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        self.inProgressTableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        
         inProgressTableView.register(UINib.init(nibName: "InProgressTableViewCell", bundle: nil),
                                   forCellReuseIdentifier: "InProgressTableViewCell")
         
@@ -142,6 +145,7 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         if (statusTypeIdArr[indexPath.row] == 44) {
             
             cell.updateBtn.isHidden = true
+            cell.rightImageView.isHidden = true
             
         }else{
             
@@ -152,6 +156,8 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
             
             cell.updateBtn.isHidden = true
             cell.addBtn.isHidden = true
+            
+            cell.rightImageView.isHidden = false
             
         }        
         

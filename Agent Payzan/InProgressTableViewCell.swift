@@ -24,6 +24,8 @@ class InProgressTableViewCell: UITableViewCell {
     
     @IBOutlet weak var updateBtn: UIButton!
     
+    @IBOutlet weak var rightImageView: UIImageView!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

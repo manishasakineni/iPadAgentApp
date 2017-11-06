@@ -34,6 +34,9 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        self.requesttableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        
         requesttableView.register(UINib.init(nibName: "RequestsTableViewCell", bundle: nil),
                                  forCellReuseIdentifier: "RequestsTableViewCell")
         
@@ -93,7 +96,9 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                     self.agentIdArr.append(agentRequestInfo.id!)
                     
                 }
-                 self.requesttableView.reloadData()
+                
+//                self.getAgentRequesgtInfoAPICall()
+                self.requesttableView.reloadData()
             }
             
         }
@@ -217,7 +222,8 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                 
                 let statusTypeId = self.statusTypeIdArr[indexPath.row]
                 
-                let assignToUserId = self.assignToUserIdArr[indexPath.row]
+                let assignToUserId = "f1df3305-f345-490b-aee0-7cffdaeb7e0e"
+//                    self.assignToUserIdArr[indexPath.row]
                 
                 let agentRequestId = self.agentIdArr[indexPath.row]
                 
@@ -244,6 +250,7 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                     if (json.count > 0){
                         
                         
+                        
                         let updateAgetAgentRequestArray = ParsingModelClass.sharedInstance.updateAgentRequesgtInfoAPIModelParsing(object: json as AnyObject?)
                         
                         print(updateAgetAgentRequestArray)
@@ -263,6 +270,16 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                                 
                             }
                         }
+                        
+                        self.agentReqArr.removeAll()
+                        self.mobileArr.removeAll()
+                        self.addressArr.removeAll()
+                        self.emailArr.removeAll()
+                        self.businessArr.removeAll()
+                        self.statusTypeIdArr.removeAll()
+                        
+                        self.getAgentRequesgtInfoAPICall()
+//                        self.requesttableView.reloadData()
                         
                     }
                     
@@ -316,7 +333,9 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                 
                 let statusTypeId = self.statusTypeIdArr[indexPath.row]
                 
-                let assignToUserId = self.assignToUserIdArr[indexPath.row]
+                let assignToUserId = "f1df3305-f345-490b-aee0-7cffdaeb7e0e"
+                    
+//                    self.assignToUserIdArr[indexPath.row]
                 
                 let agentRequestId = self.agentIdArr[indexPath.row]
                 
@@ -363,6 +382,13 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                             }
                         }
                         
+                        self.agentReqArr.removeAll()
+                        self.mobileArr.removeAll()
+                        self.addressArr.removeAll()
+                        self.emailArr.removeAll()
+                        self.businessArr.removeAll()
+                        self.statusTypeIdArr.removeAll()
+//                        self.requesttableView.reloadData()
                     }
                     
                     

@@ -12,13 +12,25 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var mobileEmailTF: UITextField!
     
+    @IBOutlet weak var heightField: NSLayoutConstraint!
     
     @IBOutlet weak var passwordTF: UITextField!
+    
+    @IBOutlet weak var passwordHeightField: NSLayoutConstraint!
+    
+    @IBOutlet weak var loginBtnHeight: NSLayoutConstraint!
+    
+    @IBOutlet weak var eyeBtnHeight: NSLayoutConstraint!
+    
+    @IBOutlet weak var eyeTopBtn: NSLayoutConstraint!
     
     var email = ""
     var password = ""
 
     var eyeIcon : Bool!
+    
+//    let screenSize = UIScreen.main.bounds
+    
     
 
     override func viewDidLoad() {
@@ -30,11 +42,86 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         passwordTF.delegate = self
         
         
+        mobileEmailTF.borderStyle = UITextBorderStyle.roundedRect
+        passwordTF.borderStyle = UITextBorderStyle.roundedRect
+        
+//        let screenWidth = screenSize.width
+//        let screenHeight = screenSize.height
+        
+//        print("screenWidth:\(screenWidth)")
+//        print("screenHeight:\(screenHeight)")
+        
+        if Device.isPhone() == true {
+            
+            mobileEmailTF.bounds.size.height = 50
+        }
+        
+        if Device.isPad() == true {
+            
+            passwordHeightField.constant = 100
+            heightField.constant = 80.0
+            
+            eyeTopBtn.constant = 50
+            
+            loginBtnHeight.constant = 100.0
+            
+        }
+        
+        iPhoneScreenSizes()
+        
+//        if screenWidth == 768 {
+//            
+//            mobileEmailTF.bounds.size.height = 100
+//        }
+//        else {
+//            
+//            mobileEmailTF.frame.size.height = 50
+//            
+//        }
+//        
+//        if UIDevice.current.userInterfaceIdiom == .phone {
+//            
+//            mobileEmailTF.frame.size.height = 50
+//            
+//        }else {
+//            
+//            mobileEmailTF.bounds.size.height = 100
+//            
+//        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func iPhoneScreenSizes(){
+        let bounds = UIScreen.main.bounds
+        let height = bounds.size.height
+        
+        switch height {
+        case 480.0:
+            print("iPhone 3,4")
+        case 568.0:
+            print("iPhone 5")
+        case 667.0:
+            print("iPhone 6")
+        case 736.0:
+            print("iPhone 6+")
+        case 1024.0:
+            print("iPadAir")
+            
+//            mobileEmailTF.textColor = UIColor.blue
+//            mobileEmailTF.frame.size.height = 100
+            
+        default:
+            print("not an iPhone")
+            
+        }
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -488,12 +488,12 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             
             else{
             
-            return 470
+            return 480
             }
         
         }
         
-        return 50
+        return 60
         
     }
     
@@ -1076,18 +1076,18 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
         if let newRegTableViewCell : NewRegTableViewCell = newRegTableview.cellForRow(at: indexPath) as? NewRegTableViewCell {
         
 
-            if (newRegTableViewCell.detailsTextField.text == ""){
-                
-                Utilities.sharedInstance.alertWithOkButtonAction(vc: self, alertTitle: "Warning", messege: "Please enter all fields", clickAction: {
-                    
-                    
-                    
-                    
-                })
-                validateSuccess = false
-                return
-                
-            }
+//            if (newRegTableViewCell.detailsTextField.text == ""){
+//                
+//                Utilities.sharedInstance.alertWithOkButtonAction(vc: self, alertTitle: "Warning", messege: "Please enter all fields", clickAction: {
+//                    
+//                    
+//                    
+//                    
+//                })
+//                validateSuccess = false
+//                return
+//                
+//            }
             
 
        

@@ -18,6 +18,9 @@ class AgentReqTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        agentDetailsTF.borderStyle = UITextBorderStyle.roundedRect
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

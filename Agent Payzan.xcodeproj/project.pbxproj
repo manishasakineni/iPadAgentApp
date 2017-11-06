@@ -13,6 +13,7 @@
 		3552956B1FAB5438007A2605 /* InProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956A1FAB5438007A2605 /* InProgressViewController.swift */; };
 		3552956E1FAB5463007A2605 /* InProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */; };
 		3552956F1FAB5463007A2605 /* InProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */; };
+		3552A8661FB05E8F0087D841 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552A8651FB05E8F0087D841 /* Device.swift */; };
 		355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E14A91F99E65E006A9DAE /* UIView+Toast.m */; };
 		355E14B51F9A0DF2006A9DAE /* AddDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */; };
 		355E14B71F9A394E006A9DAE /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B61F9A394E006A9DAE /* IdentityViewController.swift */; };
@@ -60,6 +61,7 @@
 		3552956A1FAB5438007A2605 /* InProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressViewController.swift; sourceTree = "<group>"; };
 		3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressTableViewCell.swift; sourceTree = "<group>"; };
 		3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InProgressTableViewCell.xib; sourceTree = "<group>"; };
+		3552A8651FB05E8F0087D841 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		355E14A81F99E65E006A9DAE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		355E14A91F99E65E006A9DAE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDocumentViewController.swift; sourceTree = "<group>"; };
@@ -207,7 +209,6 @@
 				355E14A71F99E63E006A9DAE /* Toast */,
 				3DF4CDA81F8B46A400C1F6DA /* Constants.swift */,
 				356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */,
-				355295681FAB0DCE007A2605 /* ShadowView.swift */,
 				3D1A1CBF1F8CA0610081F74E /* APIModel.swift */,
 				3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */,
 				355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */,
@@ -220,6 +221,7 @@
 				3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */,
 				3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */,
 				3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */,
+				3552A8651FB05E8F0087D841 /* Device.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -394,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3552A8661FB05E8F0087D841 /* Device.swift in Sources */,
 				355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */,
 				355295671FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift in Sources */,
 				3DF4CDAE1F8B46A400C1F6DA /* NetworkResponseParser.swift in Sources */,

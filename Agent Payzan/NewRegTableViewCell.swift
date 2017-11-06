@@ -18,7 +18,9 @@ class NewRegTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // Initialization 
+        
+        detailsTextField.borderStyle = UITextBorderStyle.roundedRect
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

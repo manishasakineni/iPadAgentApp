@@ -35,6 +35,12 @@ class IdentityViewController: UIViewController,UIPickerViewDelegate,UIPickerView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        personalName.borderStyle = UITextBorderStyle.roundedRect
+        personalNumber.borderStyle = UITextBorderStyle.roundedRect
+        financialName.borderStyle = UITextBorderStyle.roundedRect
+        financialNumber.borderStyle = UITextBorderStyle.roundedRect
+        
         IDPickerView.delegate = self
         IDPickerView.dataSource = self
         
