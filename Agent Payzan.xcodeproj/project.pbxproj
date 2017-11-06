@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355295651FAAED58007A2605 /* LoginParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */; };
+		355295671FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */; };
+		355295691FAB0DCE007A2605 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295681FAB0DCE007A2605 /* ShadowView.swift */; };
+		3552956B1FAB5438007A2605 /* InProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956A1FAB5438007A2605 /* InProgressViewController.swift */; };
+		3552956E1FAB5463007A2605 /* InProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */; };
+		3552956F1FAB5463007A2605 /* InProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */; };
+		355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E14A91F99E65E006A9DAE /* UIView+Toast.m */; };
+		355E14B51F9A0DF2006A9DAE /* AddDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */; };
+		355E14B71F9A394E006A9DAE /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B61F9A394E006A9DAE /* IdentityViewController.swift */; };
+		356253D11FAC524A006FD52D /* GlobalSupportingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */; };
+		3D1A1CC01F8CA0610081F74E /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CBF1F8CA0610081F74E /* APIModel.swift */; };
+		3D1A1CC21F8CCEFE0081F74E /* ParametersAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */; };
+		3D1A1CC41F8CDBB40081F74E /* ParsingModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */; };
+		3D1D828E1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */; };
+		3D533D811F97610400DED599 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D801F97610400DED599 /* HomeViewController.swift */; };
+		3D533D831F9765AF00DED599 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D821F9765AF00DED599 /* RequestsViewController.swift */; };
+		3D533D861F976BD100DED599 /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */; };
+		3D533D871F976BD100DED599 /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */; };
+		3D65EB981F9F267400D82B65 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65EB971F9F267400D82B65 /* Reachability.swift */; };
+		3D98E80B1F85FEEB00DC8976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */; };
+		3D98E8101F85FEEB00DC8976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E80E1F85FEEB00DC8976 /* Main.storyboard */; };
+		3D98E8121F85FEEB00DC8976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E8111F85FEEB00DC8976 /* Assets.xcassets */; };
+		3D98E8151F85FEEB00DC8976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */; };
+		3D98E8211F865BC600DC8976 /* NewAgentRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */; };
+		3DE6A8371FA2093C00E09E1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */; };
+		3DF4CDAC1F8B46A400C1F6DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDA81F8B46A400C1F6DA /* Constants.swift */; };
+		3DF4CDAD1F8B46A400C1F6DA /* NetworkServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */; };
+		3DF4CDAE1F8B46A400C1F6DA /* NetworkResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */; };
+		3DF4CDAF1F8B46A400C1F6DA /* AddNewAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */; };
+		3DF4CDB41F8B560700C1F6DA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDB31F8B560700C1F6DA /* Utilities.swift */; };
+		3DF8E6161F88953D0095ABBB /* AgentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */; };
+		3DF8E6191F8895BB0095ABBB /* AgentReqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */; };
+		3DF8E61A1F8895BB0095ABBB /* AgentReqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */; };
+		3DF8E61D1F88A2C00095ABBB /* PhoneNoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */; };
+		3DF8E61E1F88A2C00095ABBB /* PhoneNoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */; };
+		3DF8E6211F88A2DD0095ABBB /* ButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */; };
+		3DF8E6221F88A2DD0095ABBB /* ButtonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */; };
+		3DFAA1A81F8F82A6008DBEC7 /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */; };
+		3DFE8B311F874C81000BFD7C /* NewRegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */; };
+		3DFE8B321F874C81000BFD7C /* NewRegTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */; };
+		3DFE8B351F874C9C000BFD7C /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */; };
+		3DFE8B361F874C9C000BFD7C /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */; };
+		3DFE8B381F8758EA000BFD7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */; };
+		C19124E492DEAEDA2F70D308 /* Pods_Agent_Payzan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParamsAPIModel.swift; sourceTree = "<group>"; };
+		355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqInfoParamsAPIModel.swift; sourceTree = "<group>"; };
+		355295681FAB0DCE007A2605 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		3552956A1FAB5438007A2605 /* InProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressViewController.swift; sourceTree = "<group>"; };
+		3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressTableViewCell.swift; sourceTree = "<group>"; };
+		3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InProgressTableViewCell.xib; sourceTree = "<group>"; };
+		355E14A81F99E65E006A9DAE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		355E14A91F99E65E006A9DAE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDocumentViewController.swift; sourceTree = "<group>"; };
+		355E14B61F9A394E006A9DAE /* IdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalSupportingClass.swift; sourceTree = "<group>"; };
+		3D1A1CBF1F8CA0610081F74E /* APIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersAPIModel.swift; sourceTree = "<group>"; };
+		3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingModelClass.swift; sourceTree = "<group>"; };
+		3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentReqInfoParamsAPIModel.swift; sourceTree = "<group>"; };
+		3D533D801F97610400DED599 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D533D821F9765AF00DED599 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
+		3D65EB971F9F267400D82B65 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agent Payzan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D98E80F1F85FEEB00DC8976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D98E8111F85FEEB00DC8976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D98E8141F85FEEB00DC8976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D98E8161F85FEEB00DC8976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAgentRegistrationViewController.swift; sourceTree = "<group>"; };
+		3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3DF4CDA81F8B46A400C1F6DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceHandler.swift; sourceTree = "<group>"; };
+		3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseParser.swift; sourceTree = "<group>"; };
+		3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressViewController.swift; sourceTree = "<group>"; };
+		3DF4CDB31F8B560700C1F6DA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentRequestViewController.swift; sourceTree = "<group>"; };
+		3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentReqTableViewCell.xib; sourceTree = "<group>"; };
+		3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNoTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneNoTableViewCell.xib; sourceTree = "<group>"; };
+		3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonsTableViewCell.xib; sourceTree = "<group>"; };
+		3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
+		3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRegTableViewCell.swift; sourceTree = "<group>"; };
+		3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRegTableViewCell.xib; sourceTree = "<group>"; };
+		3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agent Payzan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan.release.xcconfig"; sourceTree = "<group>"; };
+		BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agent_Payzan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agent Payzan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D98E8041F85FEEB00DC8976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFE8B381F8758EA000BFD7C /* CoreLocation.framework in Frameworks */,
+				C19124E492DEAEDA2F70D308 /* Pods_Agent_Payzan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186821BA817672B8B25CFDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */,
+				BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		355E14A71F99E63E006A9DAE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				355E14A81F99E65E006A9DAE /* UIView+Toast.h */,
+				355E14A91F99E65E006A9DAE /* UIView+Toast.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		3D98E7FE1F85FEEB00DC8976 = {
+			isa = PBXGroup;
+			children = (
+				3D98E8091F85FEEB00DC8976 /* Agent Payzan */,
+				3D98E8081F85FEEB00DC8976 /* Products */,
+				831B896F0A7B5417B4E44F82 /* Pods */,
+				186821BA817672B8B25CFDF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D98E8081F85FEEB00DC8976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D98E8091F85FEEB00DC8976 /* Agent Payzan */ = {
+			isa = PBXGroup;
+			children = (
+				3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */,
+				3D98E80E1F85FEEB00DC8976 /* Main.storyboard */,
+				3DF4CDB01F8B471F00C1F6DA /* Model */,
+				3DF4CDB11F8B472700C1F6DA /* View */,
+				3DF4CDB21F8B472C00C1F6DA /* Controllers */,
+				3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */,
+				3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */,
+				355E14B61F9A394E006A9DAE /* IdentityViewController.swift */,
+				3D533D821F9765AF00DED599 /* RequestsViewController.swift */,
+				355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */,
+				3552956A1FAB5438007A2605 /* InProgressViewController.swift */,
+				3D98E8111F85FEEB00DC8976 /* Assets.xcassets */,
+				3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */,
+				3D98E8161F85FEEB00DC8976 /* Info.plist */,
+			);
+			path = "Agent Payzan";
+			sourceTree = "<group>";
+		};
+		3DF490571F8B9A7F0023E1D4 /* Agent Request Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */,
+				3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */,
+				3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */,
+				3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */,
+				3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */,
+				3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */,
+				3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */,
+			);
+			name = "Agent Request Viewcontroller";
+			sourceTree = "<group>";
+		};
+		3DF490581F8B9ACD0023E1D4 /* New Agent Registratuon */ = {
+			isa = PBXGroup;
+			children = (
+				3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */,
+				3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */,
+				3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */,
+				3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */,
+				3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */,
+			);
+			name = "New Agent Registratuon";
+			sourceTree = "<group>";
+		};
+		3DF4CDB01F8B471F00C1F6DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				355E14A71F99E63E006A9DAE /* Toast */,
+				3DF4CDA81F8B46A400C1F6DA /* Constants.swift */,
+				356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */,
+				355295681FAB0DCE007A2605 /* ShadowView.swift */,
+				3D1A1CBF1F8CA0610081F74E /* APIModel.swift */,
+				3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */,
+				355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */,
+				355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */,
+				3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */,
+				3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */,
+				3DF4CDB31F8B560700C1F6DA /* Utilities.swift */,
+				3D65EB971F9F267400D82B65 /* Reachability.swift */,
+				355295681FAB0DCE007A2605 /* ShadowView.swift */,
+				3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */,
+				3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */,
+				3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3DF4CDB11F8B472700C1F6DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */,
+				3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */,
+				3D533D801F97610400DED599 /* HomeViewController.swift */,
+				3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */,
+				3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */,
+				3DF490571F8B9A7F0023E1D4 /* Agent Request Viewcontroller */,
+				3DF490581F8B9ACD0023E1D4 /* New Agent Registratuon */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3DF4CDB21F8B472C00C1F6DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		831B896F0A7B5417B4E44F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */,
+				4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D98E8061F85FEEB00DC8976 /* Agent Payzan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D98E8191F85FEEB00DC8976 /* Build configuration list for PBXNativeTarget "Agent Payzan" */;
+			buildPhases = (
+				E50901DB45697657E2422E69 /* [CP] Check Pods Manifest.lock */,
+				3D98E8031F85FEEB00DC8976 /* Sources */,
+				3D98E8041F85FEEB00DC8976 /* Frameworks */,
+				3D98E8051F85FEEB00DC8976 /* Resources */,
+				47BCDED66D83E3EECDBB9F0D /* [CP] Embed Pods Frameworks */,
+				CC03524DFB260F3596E30C5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agent Payzan";
+			productName = "Agent Payzan";
+			productReference = 3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D98E7FF1F85FEEB00DC8976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Naveen;
+				TargetAttributes = {
+					3D98E8061F85FEEB00DC8976 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D98E8021F85FEEB00DC8976 /* Build configuration list for PBXProject "Agent Payzan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D98E7FE1F85FEEB00DC8976;
+			productRefGroup = 3D98E8081F85FEEB00DC8976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D98E8061F85FEEB00DC8976 /* Agent Payzan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D98E8051F85FEEB00DC8976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D98E8151F85FEEB00DC8976 /* LaunchScreen.storyboard in Resources */,
+				3D98E8121F85FEEB00DC8976 /* Assets.xcassets in Resources */,
+				3DF8E61A1F8895BB0095ABBB /* AgentReqTableViewCell.xib in Resources */,
+				3552956F1FAB5463007A2605 /* InProgressTableViewCell.xib in Resources */,
+				3DF8E6221F88A2DD0095ABBB /* ButtonsTableViewCell.xib in Resources */,
+				3D533D871F976BD100DED599 /* RequestsTableViewCell.xib in Resources */,
+				3D98E8101F85FEEB00DC8976 /* Main.storyboard in Resources */,
+				3DFE8B361F874C9C000BFD7C /* MapTableViewCell.xib in Resources */,
+				3DFE8B321F874C81000BFD7C /* NewRegTableViewCell.xib in Resources */,
+				3DF8E61E1F88A2C00095ABBB /* PhoneNoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47BCDED66D83E3EECDBB9F0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC03524DFB260F3596E30C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50901DB45697657E2422E69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agent Payzan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D98E8031F85FEEB00DC8976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */,
+				355295671FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift in Sources */,
+				3DF4CDAE1F8B46A400C1F6DA /* NetworkResponseParser.swift in Sources */,
+				3DF8E6161F88953D0095ABBB /* AgentRequestViewController.swift in Sources */,
+				3DF4CDB41F8B560700C1F6DA /* Utilities.swift in Sources */,
+				356253D11FAC524A006FD52D /* GlobalSupportingClass.swift in Sources */,
+				3D1A1CC21F8CCEFE0081F74E /* ParametersAPIModel.swift in Sources */,
+				3D533D811F97610400DED599 /* HomeViewController.swift in Sources */,
+				3D1D828E1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift in Sources */,
+				3D1A1CC01F8CA0610081F74E /* APIModel.swift in Sources */,
+				355E14B51F9A0DF2006A9DAE /* AddDocumentViewController.swift in Sources */,
+				3D533D831F9765AF00DED599 /* RequestsViewController.swift in Sources */,
+				3DF8E6211F88A2DD0095ABBB /* ButtonsTableViewCell.swift in Sources */,
+				3552956E1FAB5463007A2605 /* InProgressTableViewCell.swift in Sources */,
+				355E14B71F9A394E006A9DAE /* IdentityViewController.swift in Sources */,
+				3D65EB981F9F267400D82B65 /* Reachability.swift in Sources */,
+				3DF4CDAF1F8B46A400C1F6DA /* AddNewAddressViewController.swift in Sources */,
+				3DFE8B351F874C9C000BFD7C /* MapTableViewCell.swift in Sources */,
+				3D98E8211F865BC600DC8976 /* NewAgentRegistrationViewController.swift in Sources */,
+				3DF4CDAC1F8B46A400C1F6DA /* Constants.swift in Sources */,
+				355295651FAAED58007A2605 /* LoginParamsAPIModel.swift in Sources */,
+				3D1A1CC41F8CDBB40081F74E /* ParsingModelClass.swift in Sources */,
+				3DF8E6191F8895BB0095ABBB /* AgentReqTableViewCell.swift in Sources */,
+				355295691FAB0DCE007A2605 /* ShadowView.swift in Sources */,
+				3D98E80B1F85FEEB00DC8976 /* AppDelegate.swift in Sources */,
+				3552956B1FAB5438007A2605 /* InProgressViewController.swift in Sources */,
+				3DF4CDAD1F8B46A400C1F6DA /* NetworkServiceHandler.swift in Sources */,
+				3DE6A8371FA2093C00E09E1C /* LoginViewController.swift in Sources */,
+				3DFE8B311F874C81000BFD7C /* NewRegTableViewCell.swift in Sources */,
+				3DF8E61D1F88A2C00095ABBB /* PhoneNoTableViewCell.swift in Sources */,
+				3D533D861F976BD100DED599 /* RequestsTableViewCell.swift in Sources */,
+				3DFAA1A81F8F82A6008DBEC7 /* BankDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D98E80E1F85FEEB00DC8976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D98E80F1F85FEEB00DC8976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D98E8141F85FEEB00DC8976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D98E8171F85FEEB00DC8976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D98E8181F85FEEB00DC8976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D98E81A1F85FEEB00DC8976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Agent Payzan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.Agent-Payzan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D98E81B1F85FEEB00DC8976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Agent Payzan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.Agent-Payzan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D98E8021F85FEEB00DC8976 /* Build configuration list for PBXProject "Agent Payzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D98E8171F85FEEB00DC8976 /* Debug */,
+				3D98E8181F85FEEB00DC8976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D98E8191F85FEEB00DC8976 /* Build configuration list for PBXNativeTarget "Agent Payzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D98E81A1F85FEEB00DC8976 /* Debug */,
+				3D98E81B1F85FEEB00DC8976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D98E7FF1F85FEEB00DC8976 /* Project object */;
+}
